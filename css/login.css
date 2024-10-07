@@ -1,0 +1,81 @@
+
+.sign-in {
+    color: #4D13D1;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+
+label {
+    padding: 15px 0;
+    font-size: medium;
+    font-weight: bold;
+}
+
+input.Account {
+    background-color: #4D13D1;
+    padding: 15px 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+a.Terms {
+    width: fit-content;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    border-bottom: 4px solid #4D13D1;
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #4D13D1;
+    outline: 0;
+    box-shadow: 0 0 5px 0.2rem #4D13D1
+}
+
+.form-check-input:checked {
+    background-color: #4D13D1;
+    border-color: #4D13D1;
+
+}
+
+div.photo {
+    background-color: #4D13D1;
+}
+
+.carousel-indicators{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin-right: 15%;
+    margin-top: 2rem;
+    margin-left: 15%;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 100%;
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 0;
+    transition: opacity .6s ease;
+}
+
+.carousel-indicators .active {
+    opacity: .5;
+}
+
+.carousel-indicators .active:hover {
+    opacity: 1;
+}

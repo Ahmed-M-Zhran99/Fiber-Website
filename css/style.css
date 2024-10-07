@@ -1,0 +1,82 @@
+ :root {
+    --Dark-Purple: #4D13D1;
+    --Grayish-white: #FBF8F3;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+nav {
+    background-color: var(--Grayish-white);
+}
+a.fiber:hover{
+color: #4D13D1;
+}
+.nav-item a{
+    width: fit-content;
+    border-bottom: 5px solid transparent;
+    transition: .2s;
+}
+.nav-item a:hover{
+    border-color: hsl(258, 83%, 45%);
+}
+button:hover {
+    opacity: .5;
+}
+
+.warber {
+    background-color: var(--Grayish-white);
+}
+
+.navbar-brand {
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.sign {
+    font-weight: 800;
+}
+
+.navbar-toggler {
+    border: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+.portfolio{
+    margin-bottom: 80px;
+}
+a.name{
+    font-weight: 900;
+    color: #4D13D1;
+}
+.input {
+    color: var(--Dark-Purple);
+}
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color: #4D13D1;
+    outline: 0;
+    box-shadow: 0 0 5px 0.2rem #4D13D1
+}
+.footer ul{
+    padding: 0;
+}
+.footer ul li{
+    list-style:none; 
+    padding: 5px;
+}
+.footer {
+    background-color: var(--Grayish-white);
+}
+.footer a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 4px  solid  transparent;
+}
+
+.footer a:hover{
+    border-bottom-color:#4D13D1;
+} 
